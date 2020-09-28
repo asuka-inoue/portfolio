@@ -46,8 +46,8 @@ $(function(){
 
 $(function(){
   $('.burger-btn').on('click', function() {
+    $(this).slideToggle();
     $(this).toggleClass('active');
-    // return false;
 
     if ($(this).hasClass('active')) {
       $('.header-nav').addClass('active');
@@ -57,13 +57,4 @@ $(function(){
   });
 });
 
-// ハンバーガー メニュー
-// $('.burger-btn').on('click',function(){
-//   $('.header-nav').fadeToggle(300);
-//   $(this).toggleClass('active');
-  
-//   if ($(this).hasClass('active')) {
-//     $('.header-nav').addClass('active');
-// } else {
-//     $('.header-nav').removeClass('active');
-// });
+
