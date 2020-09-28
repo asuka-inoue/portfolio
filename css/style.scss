@@ -458,6 +458,9 @@ ul {
     line-height: 1.2;  
   }
 }
+#contact{
+  margin-top: -300px;
+  padding-top: 300px;
 
 .form-item{
   position: relative;
@@ -527,8 +530,8 @@ ul {
 }
 *:focus{
   outline: none;
+ }
 }
-
 footer{
   text-align: center;
   color: #fff;
