@@ -44,7 +44,7 @@ $(function(){
   });
 });
 
-$('.menu a[href^="#"]').click(function() {
+$('#menu a[href^="#"]').click(function() {
   
       var speed = 400;
   
