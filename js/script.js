@@ -44,7 +44,7 @@ $(function(){
   });
 });
 
-$('#menu a[href^="#"]').click(function() {
+$(document).on('click','#menu a[href^="#"]',function() {
   
       var speed = 400;
   
@@ -74,7 +74,7 @@ $('#menu a[href^="#"]').click(function() {
     });
 
 
-    $('.header-nav ul li a').on('click', function() {
+    $('#menu a').on('click', function() {
       
           $('.header-nav').slideToggle();
       
