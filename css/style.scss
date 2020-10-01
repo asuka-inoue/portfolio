@@ -672,7 +672,14 @@ footer{
      margin: 5% auto;
    }
  }
-
+.item:active .img-mask {
+    opacity:		1;	/* マスクを表示する */
+    padding-top:	 27%;	/*ホバーで下にずらす*/
+  }
+  .item:active img {
+      filter: blur(5px);
+      transition-duration: .5s;
+  }
  .form-item{
    width: 90%;
    height: 30px;
